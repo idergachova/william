@@ -1,0 +1,43 @@
+.reviews {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 26px;
+	@include tablet {
+		grid-template-columns: 1fr;
+	}
+
+		&__item {
+            background: var(--services-bg);
+            border-radius: 12px;
+            padding: 32px;
+            display: grid;
+            gap: 28px;
+		}
+
+		&__desc {
+            color: var(--c-text-white);
+            font-size: 18px;
+            font-style: normal;
+		}
+
+		&__user {
+            display: flex;
+            align-items: flex-end;
+            gap: 20px;
+		}
+}
+.user {
+
+		&__name {
+            color: var(--c-text-white);
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 160%;
+		}
+
+		&__profession {
+            color: var(--c-primary);
+            font-size: 18px;
+            line-height: 160%;
+		}
+}

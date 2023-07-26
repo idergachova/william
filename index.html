@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Start project</title>
+</head>
+
+<body>
+	<div class="container">
+		
+		<header class="header">
+			<a class="header__logo" href="/">
+				<img src="img/logo.svg" alt="William King">
+			</a>
+			<div class="header__nav">
+				<ul class="header__ul" id="headerUl">
+					<li class="header__li"><a class="header__a _active" href="/">About</a></li>
+					<li class="header__li"><a class="header__a" href="/">Services</a></li>
+					<li class="header__li"><a class="header__a" href="/">Portfolio</a></li>
+					<li class="header__li"><a class="header__a" href="/">Testimonials</a></li>
+					<li class="header__li"><a class="header__a" href="/">Pricing</a></li>
+					<li class="header__li"><a class="header__a" href="/">Contact</a></li>
+					<span class="material-icons icon-close">close</span>
+				</ul>
+				<span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+			</div>
+		</header>
+
+		<section class="main-section">
+			<div class="main-section__desc"> 
+				<h1>I’m William K.</h1>
+				<div class="main-section__info">
+					<p>Web Designer</p> <p>/</p> <p>UI Designer</p> <p>/</p> <p>Graphic designer</p>
+				</div>
+				<div class="desc">
+					Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet
+				</div>
+				<a href="/" class="btn main-section__btn">Explore My Work</a>
+			</div>
+			<div class="main-section__img">
+				<img class="main__img" src="img/main_img.png" alt="main_img">
+			</div>
+		</section>
+
+		<section class="section services-section">
+			<div class="title">My <span>Services</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+			<div class="services">
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/cup.svg" alt="cup">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/check.svg" alt="check">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/menu.svg" alt="menu">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/send.svg" alt="send">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/settings.svg" alt="section">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/headphones.svg" alt="headphones">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section portfolio-section">
+			<div class="title">My <span>Portfolio</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+			<div class="portfolio">
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item1.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item2.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item3.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item4.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item5.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item6.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section reviews-section">
+			<div class="title">Listen to my <span>customers</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+			<div class="reviews">
+
+				<div class="reviews__item">
+					<div class="reviews__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<div class="reviews__user">
+						<img src="img/users/leslie.png" alt="leslie">
+						<div class="user__info">
+							<div class="user__name">Leslie Alexander</div>
+							<div class="user__profession">Dog Trainer</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="reviews__item">
+					<div class="reviews__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<div class="reviews__user">
+						<img src="img/users/guy.png" alt="guy">
+						<div class="user__info">
+							<div class="user__name">Guy Hawkins</div>
+							<div class="user__profession">Web Designer</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="reviews__item">
+					<div class="reviews__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<div class="reviews__user">
+						<img src="img/users/devon.png" alt="devon">
+						<div class="user__info">
+							<div class="user__name">Devon Lane</div>
+							<div class="user__profession">Medical Assistant</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="reviews__item">
+					<div class="reviews__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<div class="reviews__user">
+						<img src="img/users/floyd.png" alt="floyd">
+						<div class="user__info">
+							<div class="user__name">Floyd Miles</div>
+							<div class="user__profession">Marketing Coordinator</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>  
+
+		<section class="section pricing-section">
+			<div class="title">My <span>Pricing</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+			<div class="prising">
+				<div class="prising__item">
+					<div class="prising__title">Silver</div>
+					<div class="prising__price">$99.0</div>
+					<div class="prising__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<a href="/" class="btn prising-section__btn">Get Started</a>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+				</div>
+
+				<div class="prising__item">
+					<div class="prising__title">Silver</div>
+					<div class="prising__price">$99.0</div>
+					<div class="prising__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<a href="/" class="btn prising-section__btn">Get Started</a>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+					<div class="prising__list">
+						<img src="img/ceheck.svg" alt="ceheck">
+						<div class="list-text">12 GB Free space</div>
+					</div>
+				</div>
+
+				<div class="prising__item">
+					<div class="prising__title">Silver</div>
+					<div class="prising__price">$99.0</div>
+					<div class="prising__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<a href="/" class="btn prising-section__btn">Get Started</a>
+					<div class="box__list">
+						<div class="prising__list">
+							<img src="img/ceheck.svg" alt="ceheck">
+							<div class="list-text">12 GB Free space</div>
+						</div>
+						<div class="prising__list">
+							<img src="img/ceheck.svg" alt="ceheck">
+							<div class="list-text">12 GB Free space</div>
+						</div>
+						<div class="prising__list">
+							<img src="img/ceheck.svg" alt="ceheck">
+							<div class="list-text">12 GB Free space</div>
+						</div>
+						<div class="prising__list">
+							<img src="img/ceheck.svg" alt="ceheck">
+							<div class="list-text">12 GB Free space</div>
+						</div>
+						<div class="prising__list">
+							<img src="img/ceheck.svg" alt="ceheck">
+							<div class="list-text">12 GB Free space</div>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</section>
+
+		<section class="section form-section">
+			<div class="title">Get in <span>touch</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+			<div class="form-section">
+				<input class="forms_input" type="text" name="name" placeholder="Enter Your Name">
+				<input class="forms_input" type="email" name="email" placeholder="Enter your email address">
+				<input class="forms_input text" type="text" name="name" placeholder="Enter Message">
+			</div>
+			<a href="/" class="btn form-section__btn">Send Message</a>
+		</section>
+	</div>	
+
+	<footer>
+		<div class="container footer-section">
+			<div class="copyright">© <span id="year"></span> All rights reserved. Designed by <a class="desing" href="/">SA7MAN.</a></div>
+			<div class="footer-nav">
+				<li class="footer__li"><a class="footer__a" href="/">Twitter</a></li>
+				<li class="footer__li"><a class="footer__a" href="/">Dribbble</a></li>
+				<li class="footer__li"><a class="footer__a" href="/">Github</a></li>
+				<li class="footer__li"><a class="footer__a" href="/">Instagram</a></li>
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

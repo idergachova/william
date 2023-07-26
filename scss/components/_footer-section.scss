@@ -1,0 +1,34 @@
+footer{ 
+    background: var(--services-bg);
+}
+
+.footer-section {
+    padding: 54px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright{
+    color: var(--c-text-white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.footer {
+		&__a {    
+            color: var(--c-text-white);
+            font-size: 16px;
+		}
+}
+.desing {
+    color: var(--c-primary);
+}
